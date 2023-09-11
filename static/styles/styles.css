@@ -1,0 +1,29 @@
+*,
+a{
+	text-decoration: none;
+}
+
+/*MENU*/
+.navbar-brand{
+	font-weight: bolder;
+}
+
+.navbar-brand:hover{
+	font-size: 1.5rem;
+}
+
+.navbar .nav-item .dropdown-menu{
+	display: none;
+}
+
+.navbar .nav-item:hover .dropdown-menu{
+	display: block;
+}
+
+ul.dropdown-menu li{
+	font-weight: bold;
+}
+
+ul.dropdown-menu li:hover{
+	font-weight: bolder;
+}

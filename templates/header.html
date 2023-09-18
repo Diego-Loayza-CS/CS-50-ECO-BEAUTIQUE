@@ -1,0 +1,23 @@
+<nav class='navbar navbar-expand-lg navbar-dark bg-primary'>
+  <div class='container-fluid'>
+    <a class='navbar-brand' href='/'>{{ title }}</a>
+    <div class='navbar-collapse' id='main_nav'>
+      <ul class='navbar-nav'>
+        <li class='nav-item dropdown'>
+          <a class='nav-link dropdown-toggle' href='#' data-bs-toggle='dropdown'>I need a...</a>
+          <ul class='dropdown-menu'>
+            {% for item in list %}
+            <li>
+              <a href="/?category={{ item['string'] }}" class=''>
+                <img src="../static/img/categories/{{ item['string'] }}.png" alt="{{ item['name'] }}" class='miniature' style="max-width: 2rem; max-height: 2rem;">
+                <div class='p-size'>{{ item['name'] }}</div>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+          <p>...but ecologic.</p>
+        </li>
+      </ul>
+    </div> 
+  </div> 
+</nav>

@@ -1,5 +1,17 @@
 {% extends 'page.html' %}
 
 {% block content %}
-	my content
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 text-center">
+            <div class="landing">
+                <h1 class="logo">{{ title }}</h1>
+                <p class="description">
+                    Your destination finder for eco-friendly places and activities.
+                </p>
+                <a href="/map" class="get-started-btn btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

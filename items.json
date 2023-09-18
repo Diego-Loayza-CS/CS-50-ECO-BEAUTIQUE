@@ -1,0 +1,149 @@
+{
+  "list": [
+      {
+          "name": "Amusement Park",
+          "string": "amusement_park",
+          "img": "amusement_park.png"
+      },
+      {
+          "name": "Aquarium",
+          "string": "aquarium",
+          "img": "aquarium.png"
+      },
+      {
+          "name": "Art Gallery",
+          "string": "art_gallery",
+          "img": "art_gallery.png"
+      },
+      {
+          "name": "Bicycle Store",
+          "string": "bicycle_store",
+          "img": "bicycle_store.png"
+      },
+      {
+          "name": "Cafe",
+          "string": "cafe",
+          "img": "cafe.png"
+      },
+      {
+          "name": "Campground",
+          "string": "campground",
+          "img": "campground.png"
+      },
+      {
+          "name": "Clothing Store",
+          "string": "clothing_store",
+          "img": "clothing_store.png"
+      },
+      {
+          "name": "Convenience Store",
+          "string": "convenience_store",
+          "img": "convenience_store.png"
+      },
+      {
+          "name": "Drugstore",
+          "string": "drugstore",
+          "img": "drugstore.png"
+      },
+      {
+          "name": "Electronics Store",
+          "string": "electronics_store",
+          "img": "electronics_store.png"
+      },
+      {
+          "name": "Florist",
+          "string": "florist",
+          "img": "florist.png"
+      },
+      {
+          "name": "Furniture Store",
+          "string": "furniture_store",
+          "img": "furniture_store.png"
+      },
+      {
+          "name": "Gym",
+          "string": "gym",
+          "img": "gym.png"
+      },
+      {
+          "name": "Home Goods Store",
+          "string": "home_goods_store",
+          "img": "home_goods_store.png"
+      },
+      {
+          "name": "Local Government Office",
+          "string": "local_government_office",
+          "img": "local_government_office.png"
+      },
+      {
+          "name": "Lodging",
+          "string": "lodging",
+          "img": "lodging.png"
+      },
+      {
+          "name": "Meal Delivery",
+          "string": "meal_delivery",
+          "img": "meal_delivery.png"
+      },
+      {
+          "name": "Meal Takeaway",
+          "string": "meal_takeaway",
+          "img": "meal_takeaway.png"
+      },
+      {
+          "name": "Museum",
+          "string": "museum",
+          "img": "museum.png"
+      },
+      {
+          "name": "Park",
+          "string": "park",
+          "img": "park.png"
+      },
+      {
+          "name": "Pet Store",
+          "string": "pet_store",
+          "img": "pet_store.png"
+      },
+      {
+          "name": "Pharmacy",
+          "string": "pharmacy",
+          "img": "pharmacy.png"
+      },
+      {
+          "name": "Real Estate Agency",
+          "string": "real_estate_agency",
+          "img": "real_estate_agency.png"
+      },
+      {
+          "name": "Roofing Contractor",
+          "string": "roofing_contractor",
+          "img": "roofing_contractor.png"
+      },
+      {
+          "name": "RV Park",
+          "string": "rv_park",
+          "img": "rv_park.png"
+      },
+      {
+          "name": "Store",
+          "string": "store",
+          "img": "store.png"
+      },
+      {
+          "name": "Tourist Attraction",
+          "string": "tourist_attraction",
+          "img": "tourist_attraction.png"
+      },
+      {
+          "name": "Veterinary Care",
+          "string": "veterinary_care",
+          "img": "veterinary_care.png"
+      },
+      {
+          "name": "Zoo",
+          "string": "zoo",
+          "img": "zoo.png"
+      }
+  ]
+}

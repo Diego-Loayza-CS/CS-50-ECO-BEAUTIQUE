@@ -4,33 +4,16 @@
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
 
-	<title>EcoLocation</title>
+	<title>{{ title }}</title>
 
-	<link rel='stylesheet' type='text/css' href='static/styles/styles.css'/>
+	{{ bootstrap.load_css() }}
 </head>
 
 <body>
+	holi
 	<div class='container-fluid'>
-		<nav class='navbar navbar-expand-lg navbar-dark bg-primary'>
-			<div class='container-fluid'>
-				<a class='navbar-brand' href='/'>EcoLocation</a>
-				<div class='navbar-collapse' id='main_nav'>
-					<ul class='navbar-nav'>
-						<li class='nav-item dropdown'>
-							<a class='nav-link dropdown-toggle' href='#' data-bs-toggle='dropdown'>I want to find...</a>
-							<ul class='dropdown-menu'>
-					  			{% for element in list %}
-								<li>
-									<a href="/?type={{ element['string'] }}"> {{ element['name'] }} </a>
-								</li>
-								{% endfor %}
-							</ul>
-						</li>
-					</ul>
-				</div> 
-			</div> 
-		</nav>
 		{% block content %}{% endblock %}
 	</div>
 </body>
+<script src='static/scripts/main.js'></script>
 </html>

@@ -3,6 +3,31 @@ a{
 	text-decoration: none;
 }
 
+/*CONTAINERS*/
+body > .container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+oculto{
+	height: 0;
+	overflow: hidden;
+	margin: 0;
+}
+
+oculto *{
+	height: 0;
+	font-size: 0;
+	margin: 0;
+}
+
+
 /*MENU*/
 .navbar-brand{
 	font-weight: bolder;
@@ -22,8 +47,68 @@ a{
 
 ul.dropdown-menu li{
 	font-weight: bold;
+	padding: 0.2rem 1rem;
 }
 
 ul.dropdown-menu li:hover{
 	font-weight: bolder;
+	padding: 0.3rem 1.1rem;
+	background: var(--color-1-t);
+}
+
+
+
+.squares{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+}
+
+.squares > div{
+	margin-bottom: 2rem;
+}
+
+.square{
+	background: var(--color-2-t);
+	border-radius: 1rem;
+	border:  3px solid var(--color-2);
+	padding: 1rem;
+}
+
+.square:hover{
+	border:  5px solid var(--color-2);
+}
+
+.square,
+.square > a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.square > a > img,
+.square > a > div{
+	width: 65%;
+	padding: 0.5rem 0;
+	font-weight: bolder;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.square:hover > a > img{
+	width: 70%;
+}
+
+.square:hover > a > div{
+	font-size: 1.7rem;
+}
+
+
+/*MAP*/
+.map-container, #map{
+	min-height: 95vh;
 }
